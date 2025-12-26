@@ -1,0 +1,13 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+.card { background: rgba(255,255,255,0.97); }
+.account-card {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.account-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2) !important;
+}
